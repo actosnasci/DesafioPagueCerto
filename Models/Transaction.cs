@@ -9,16 +9,16 @@ namespace ApiPagueCerto.Models
     {
         [Key]
         public int NSU { get; set; }
-        DateTime DateTransaction { get; set; }
-        DateTime DateApproval { get; set; }
-        DateTime DateDisapproval { get; set; }
-        bool Antecipated { get; set; }
-        string? AcquirerConfirmation { get; set; } 
-        float InitialValue { get; set; }
-        float FinalValue { get; set; }
-        float Rate { get; set; }
-        int Installment { get; set; }
-        string? LastCardNumbers { get; set; }
+        public DateTime DateTransaction { get; set; }
+        public DateTime DateApproval { get; set; }
+        public DateTime DateDisapproval { get; set; }
+        public bool Antecipated { get; set; }
+        public string? AcquirerConfirmation { get; set; } 
+        public float InitialValue { get; set; }
+        public float FinalValue { get; set; }
+        public float Rate { get; set; }
+        public int Installment { get; set; }
+        public string? LastCardNumbers { get; set; }
 
 
     }
